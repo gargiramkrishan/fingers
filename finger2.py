@@ -11,14 +11,14 @@ cap = cv2.VideoCapture(0)
 # Width  = int(cap.get(cv2.CAP_PROP_FRAME_Height))
 # Height  = int(cap.get(cv2.CAP_PROP_FRAME_Width))
 
-# width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-# height  = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+height  = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 # width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 # height  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 
-width = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+#width = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+#height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 
 mp_hands = mp.solutions.hands
